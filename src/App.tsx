@@ -87,7 +87,7 @@ export default function App() {
 				onSubmit={handleSubmit(createUser)}
 				className='flex flex-col gap-4 w-full max-w-xs'
 			>
-				<div className='flex flex-col gap-1'>
+				{/* <div className='flex flex-col gap-1'>
 					<label htmlFor='avatar'>Avatar</label>
 					<input accept='image/*' type='file' {...register("avatar")} />
 					{errors.avatar && (
@@ -95,7 +95,7 @@ export default function App() {
 							{errors.avatar.message}
 						</span>
 					)}
-				</div>
+				</div> */}
 
 				<div className='flex flex-col gap-1'>
 					<label htmlFor='name'>Nome</label>
